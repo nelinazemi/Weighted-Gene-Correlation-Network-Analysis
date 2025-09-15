@@ -283,5 +283,3 @@ gene.signf.corr.pvals %>%
 ```
 
 This identifies the top 25 genes most significantly associated with severe cases.
-
-```
