@@ -3,10 +3,7 @@
 In this project we aim to study immune response differences between mild and severe COVID-19, identify key immune pathways, and find gene expression signatures.  
 **GSE152418** is an RNA-seq dataset of PBMCs from COVID-19 patients and their matched healthy controls.  
 The data also include raw gene counts and detailed sample metadata (disease state, severity, etc.) for systems-level immune analysis.  
-
-````markdown
 ---
-
 ## Load Data
 
 ```r
@@ -288,5 +285,3 @@ gene.signf.corr.pvals %>%
 This identifies the top 25 genes most significantly associated with severe cases.
 
 ```
-
----
