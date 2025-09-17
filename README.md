@@ -77,7 +77,7 @@ data_modified %>%
        y = "Gene count standard deviation (log10 scale)") +
   ggtitle("Mean - Standard deviation relationship\n(no variance stabilisation)")
 ```
-![variance vs mean relationship before variance stabilizing transformation](results/Rplot.png)
+![variance vs mean relationship before variance stabilizing transformation](results/Rplot01.png)
 ---
 
 ## Quality Control
@@ -148,7 +148,7 @@ variance_stabilised_counts %>%
        y = "Gene count standard deviation (variance stabilised)") +
   ggtitle("Mean - Standard deviation relationship\n(after variance stabilisation)")
 ```
-![variance vs mean relationship after variance stabilizing transformation](results/Rplot01.png)
+![variance vs mean relationship after variance stabilizing transformation](results/Rplot.png)
 ---
 
 ## WGCNA Network Construction
